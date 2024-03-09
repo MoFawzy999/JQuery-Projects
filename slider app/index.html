@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider App</title>
+    <link href="./css/all.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" >
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slider">
+            <div class="slider-wrapper">
+                <img class="slider__img" src="images/1.jpg" alt="">
+                <img class="slider__img" src="images/2.jpg" alt="">
+                <img class="slider__img" src="images/3.jpg" alt="">
+                <img class="slider__img" src="images/4.jpg" alt="">
+            </div>
+        </div>
+        <button class="slider__left"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="slider__right"><i class="fa-solid fa-angle-right"></i></button>
+        <div class="slider__pagination"></div>
+        <div class="counter-container">
+          <span class="current-counter">1</span> / <span class="total-counter"></span>
+        </div>  
+      </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
