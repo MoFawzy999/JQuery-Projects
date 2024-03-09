@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date-picker</title>
+    <!--
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    -->
+    <link href="./css/all.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" >
+</head>
+
+<body>
+    
+    <div class="page">
+        <div class="container">
+
+          <div class="curr-picked">
+            <div class="curr-picked__text"></div>
+          </div>
+
+          <div class="datepicker">
+
+            <div class="datepicker__year">
+              <span class="datepicker__btn" id="datepicker__year-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </span>
+              <span class="datepicker__year-text"></span>
+              <span class="datepicker__btn" id="datepicker__year-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </span>
+            </div>
+
+            <div class="datepicker__month">
+              <span class="datepicker__btn" id="datepicker__month-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </span>
+              <span class="datepicker__month-text"></span>
+              <span class="datepicker__btn" id="datepicker__month-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </span>
+            </div>
+
+            <ul class="datepicker__days">
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
